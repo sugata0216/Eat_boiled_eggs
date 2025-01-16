@@ -1,0 +1,18 @@
+@startuml アクティビティ図
+start
+fork
+    #Yellow:銀行でお金をおろす;
+    #Yellow:スーパーで卵を買う;
+fork again
+    #Yellow:お湯を沸かす;
+end fork
+#Yellow:卵を洗う;
+fork
+    #Yellow:腹筋して腹を減らす;
+fork again
+    #Yellow:卵をゆでる;
+    #Yellow:殻を割る;
+    #Yellow:塩を振る;
+end fork
+stop
+@enduml
